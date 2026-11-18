@@ -471,15 +471,15 @@ html[lang="en"] .news-story h3 {font-family:var(--latin);letter-spacing:0;font-s
 .feature-title {align-items:baseline;column-gap:12px;row-gap:8px}
 .feature-counts {display:inline-flex;align-items:baseline;gap:10px;flex-wrap:wrap}
 .feature-count {display:inline-flex;align-items:baseline;gap:4px;white-space:nowrap;color:#75368b}
-.feature-count strong {font:700 clamp(44px,4vw,52px)/1 var(--latin);color:inherit;letter-spacing:-.04em;font-variant-numeric:lining-nums tabular-nums}
-.feature-count>span {font:600 clamp(16px,1.4vw,18px)/1.4 var(--sans);color:inherit}
-#weekly .feature-count>span {font-size:24px}
+.feature-count strong {font:900 clamp(57.2px,5.2vw,67.6px)/1 var(--latin);-webkit-text-stroke:.25px currentColor;color:inherit;letter-spacing:-.04em;font-variant-numeric:lining-nums tabular-nums}
+.feature-count>span {font:800 clamp(20.8px,1.82vw,23.4px)/1.4 var(--sans);color:inherit}
+#weekly .feature-count>span {font-size:31.2px}
 #mentoring .feature-copy {max-width:none}
 #mentoring .feature-title h3 {font-size:clamp(29px,2.6vw,40px)}
 @media(max-width:680px) {
   .feature-title {column-gap:10px}
   .feature-counts {gap:10px}
-  .feature-count strong {font-size:42px}
-  .feature-count>span {font-size:16px}
-  #weekly .feature-count>span {font-size:22px}
+  .feature-count strong {font-size:54.6px}
+  .feature-count>span {font-size:20.8px}
+  #weekly .feature-count>span {font-size:28.6px}
 }
